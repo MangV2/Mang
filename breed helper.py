@@ -2,6 +2,7 @@
 import asyncio
 import discord
 import time 
+import os
 
 client = discord.Client()
 #3600초=1시간
@@ -10,7 +11,7 @@ client = discord.Client()
 
 
 # 토큰입력
-token = "NjU0Mjc5Mjk5MjIxODE1MzE2.XfDPSw.Ye6U0Ix0baEobsMdZkTIwOkf_G0"
+
 
 
 #봇 준비 완료 메시지
@@ -57,5 +58,5 @@ async def on_message(message):
 
         
    
-
-client.run(token)
+access_token = os.environ[Bot_token]
+client.run(access_token)
