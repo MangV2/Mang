@@ -1,5 +1,2 @@
-asyncio
 discord==0.16.12
 time 
-pip
-SQLite3
