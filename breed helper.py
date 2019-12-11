@@ -1,12 +1,18 @@
 
+
 import discord
-import time 
-import os
+import time
+
 
 client = discord.Client()
 #3600초=1시간
 #1800초=30분
 #1500=25분
+
+
+# 토큰입력
+token = "NjU0Mjc5Mjk5MjIxODE1MzE2.XfD_Pw.3X73wyLLSEWG6rv52AngU4AGse8"
+
 
 #봇 준비 완료 메시지
 @client.event 
@@ -51,9 +57,4 @@ async def on_message(message):
         await message.channel.send('5분뒤 마나 출산!', tts=True)
 
   
-
-
-        
-   
-access_token = os.environ["Bot_token"]
-client.run(access_token)
+client.run(token)
