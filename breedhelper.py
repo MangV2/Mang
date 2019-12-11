@@ -1,5 +1,5 @@
 
-
+import os
 import discord
 import time
 
@@ -10,8 +10,7 @@ client = discord.Client()
 #1500=25분
 
 
-# 토큰입력
-token = "NjU0Mjc5Mjk5MjIxODE1MzE2.XfEF4Q.gd52efeJVU2xUlKNLUeSuqp03Lg"
+
 
 
 #봇 준비 완료 메시지
@@ -56,5 +55,5 @@ async def on_message(message):
         time.sleep(1500)
         await message.channel.send('5분뒤 마나 출산!', tts=True)
 
-  
-client.run(token)
+access_token = os.envrion[BOT_TOKEN]  
+client.run(access_token)
