@@ -11,7 +11,7 @@ client = discord.Client()
 
 
 # 토큰입력
-token = "NjU0Mjc5Mjk5MjIxODE1MzE2.XfD_Pw.3X73wyLLSEWG6rv52AngU4AGse8"
+token = "NjU0Mjc5Mjk5MjIxODE1MzE2.XfEF4Q.gd52efeJVU2xUlKNLUeSuqp03Lg"
 
 
 #봇 준비 완료 메시지
