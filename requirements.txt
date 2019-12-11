@@ -1,4 +1,4 @@
-import asyncio==3.7
-import discord==0.16.12
-import time 
-import pip
+asyncio
+discord==0.16.12
+time 
+pip
