@@ -1,1 +1,3 @@
-requirements.txt
+import asyncio
+import discord==0.16.12
+import time 
